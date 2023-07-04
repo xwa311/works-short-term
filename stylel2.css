@@ -1,0 +1,242 @@
+/* 全局样式 */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* 头部 */
+
+#header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+
+.logo {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+/* 图标列表 */
+
+.icons li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.icons a {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+/* 横幅部分 */
+
+#banner {
+    background-image: url(images/pic10.jpg);
+    background-size: cover;
+    color: #fff;
+    padding: 100px;
+    text-align: center;
+}
+
+#banner h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+#banner p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+
+/* 主要部分标题 */
+
+.major h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.features {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.article {
+    text-align: center;
+}
+
+.span {
+    display: block;
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    background-color: #ccccccc0;
+}
+
+.content {
+    margin-top: 20px;
+}
+
+h3 {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 14px;
+    color: #666;
+}
+
+.posts {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.posts article {
+    width: 30%;
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.posts article .image {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.posts article img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.posts article h3 {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.posts article p {
+    font-size: 14px;
+    color: #777;
+    margin-bottom: 10px;
+}
+
+.posts article .actions {
+    text-align: center;
+}
+
+.posts article .button {
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.posts article .button:hover {
+    background-color: #555;
+}
+
+ul {
+    list-style-type: none;
+}
+
+#sidebar {
+    width: 300px;
+    background-color: #f7f7f7;
+    padding: 20px;
+}
+
+.inner {
+    margin-left: 10px;
+}
+
+#search {
+    margin-bottom: 20px;
+}
+
+#query {
+    width: 100%;
+    padding: 10px;
+}
+
+#menu {
+    margin-bottom: 20px;
+}
+
+#menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#menu li {
+    margin-bottom: 10px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: #000;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+section h2 {
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+section p {
+    margin-bottom: 10px;
+}
+
+.contact {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.contact li {
+    margin-bottom: 5px;
+}
+
+.contact a {
+    text-decoration: none;
+    color: #000;
+}
+
+
+/* Styles for the footer */
+
+#footer {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #777;
+}
+
+#footer a {
+    text-decoration: none;
+    color: #777;
+}
